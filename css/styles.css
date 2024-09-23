@@ -16,6 +16,12 @@ body
     min-height: 100vh;
 }
 
+.cvButton:hover
+{
+    background-color: #dc3546c8;
+    color: white;
+}
+
 .container
 {
     position: relative;
@@ -130,6 +136,13 @@ body
     color: #03a9f4;
 }
 
+.contactInfo ul li .text
+{
+    display: inline-block;
+    width: 20px;
+    font-size: 15px;
+}
+
 .contactInfo ul li span
 {
     color: #fff;
@@ -177,6 +190,23 @@ body
     left: 0;
     height: 100%;
     background: #03a9f4;
+}
+
+
+.contactInfo button
+{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .40rem;
+    cursor: pointer;
+  
 }
 
 .about
