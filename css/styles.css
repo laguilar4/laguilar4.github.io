@@ -173,6 +173,29 @@ body
     font-weight: 300;
 }
 
+.contactInfo.language li
+{
+    margin-bottom: 15px;
+}
+
+.contactInfo.language h5
+{
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.contactInfo.language h4:nth-child(2)
+{
+    color: #fff;
+    font-weight: 500;
+}
+
+.contactInfo.language h4
+{
+    color: #fff;
+    font-weight: 300;
+}
+
 .contactInfo.language .percent
 {
     position: relative;
@@ -262,6 +285,18 @@ p
     font-size: 16px;
 }
 
+.skills h2
+{
+    text-align: center;
+}
+
+.skills img
+{
+    position: relative;
+    padding: 15px;
+}
+
+/*
 .skills .box 
 {
     position: relative;
@@ -298,6 +333,7 @@ p
     height: 100%;
     background: #03a9f4;
 }
+*/
 
 .interest ul
 {
