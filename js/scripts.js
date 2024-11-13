@@ -38,7 +38,7 @@ document.getElementById('toggle').addEventListener('change', function() {
         expDesCont .innerHTML = `
         <h4>Ingeniero Asistente de Desarrollo de Software</h4>
         <p>
-            Diseñé y desarrollé módulos de aplicaciones web externos de la empresa utilizando Angular en el front-end y Node.js con Express en el back-end, implementando arquitecturas escalables y eficientes.
+            Diseñé y desarrollé módulos de aplicaciones web externos de la empresa utilizando Angular en el front-end y Node.js con Express en el back-end, implementando arquitecturas escalables y eficientes.Formaba parte de reuniones de SCRUM enfocadas en la definición y análisis de requerimientos.
             Implementé mecanismos de autenticación y autorización utilizando JSON Web Tokens (JWT) y AUTH0, asegurando que solo los usuarios autorizados accedieran a ciertas funcionalidades de la aplicación y mejorando la seguridad del sistema.
             Configuré tareas programadas en MongoDB utilizando Mongoose y la biblioteca cron.
             Utilicé Git para gestionar el control de versiones en proyectos de desarrollo, facilitando la colaboración en equipo y la integración continua. Realicé commits, branches y merges para mantener un historial claro de cambios en el código.
@@ -55,7 +55,7 @@ document.getElementById('toggle').addEventListener('change', function() {
         <h5>Baterias Willard</h5>`;
         expPractCont.innerHTML = `<h4>Ingeniero Practicante de Desarrollo de Software</h4>
         <p>
-            Durante mis prácticas, trabajé en el desarrollo de varios módulos internos de la intranet de la empresa utilizando JAVASCRIPT, PHP, JQUERY, AJAX y DB2, lo que me permitió ganar experiencia práctica en el desarrollo de soluciones web integradas con bases de datos.
+            Durante mis prácticas, trabajé en el desarrollo de varios módulos internos de la intranet de la empresa utilizando JAVASCRIPT, PHP, JQUERY y DB2, lo que me permitió ganar experiencia práctica en el desarrollo de soluciones web integradas con bases de datos.
             Esta experiencia me permitió adquirir una comprensión profunda de cómo trabajar con bases de datos relacionales como DB2 y cómo integrar de manera eficiente tecnologías de servidor y cliente para desarrollar aplicaciones robustas y escalables. 
             Además, me ayudó a mejorar mis habilidades en la optimización del rendimiento de las consultas y en el diseño de interfaces intuitivas.
         </p>`;
@@ -120,6 +120,7 @@ document.getElementById('toggle').addEventListener('change', function() {
             I configured cron jobs in MongoDB using Mongoose and the cron library.
             I used Git to manage version control in development projects, facilitating team collaboration and continuous integration. I performed commits, branches, and merges to maintain a clear history of changes in the code.
             With this version control system, I pushed changes to the GitLab repositories and performed automatic deployments in container environments using Docker. This ensured that the latest code updates were quickly and efficiently reflected in both development and production environments.
+            I was part of meetings of SCRUM focused on the definition and analysis of requirements.
         </p>
         `;
         expDesYear.innerHTML = `
@@ -132,7 +133,7 @@ document.getElementById('toggle').addEventListener('change', function() {
         <h5>Baterias Willard</h5>`;
         expPractCont.innerHTML = `<h4>Practicing Software Development Engineer</h4>
         <p>
-            During my internship, I worked on the development of several internal modules for the company’s intranet using JavaScript, PHP, jQuery, AJAX, and DB2, which allowed me to gain practical experience in developing web solutions integrated with databases.
+            During my internship, I worked on the development of several internal modules for the company’s intranet using JavaScript, PHP, jQuery and DB2, which allowed me to gain practical experience in developing web solutions integrated with databases.
             This experience enabled me to gain a deep understanding of how to work with relational databases like DB2 and how to efficiently integrate server and client technologies to develop robust and scalable applications. Additionally, it helped me improve my skills in query performance optimization and in designing intuitive interfaces.
         </p>`;
         cvButton.innerHTML = `
