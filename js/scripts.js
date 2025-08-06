@@ -13,6 +13,8 @@ document.getElementById('toggle').addEventListener('change', function() {
     const ulLanguages = document.getElementById('ulLanguages');
     const cvButton = document.getElementById('contactDiv');
     const titleCv = document.getElementById('titleCv');
+    const expFullYear = document.getElementById('expFullYear');
+    const expFullCont = document.getElementById('expFullCont');
     const expDesYear = document.getElementById('expDesYear');
     const expDesCont = document.getElementById('expDesCont');
     const expPractYear = document.getElementById('expPractYear');
