@@ -35,6 +35,21 @@ document.getElementById('toggle').addEventListener('change', function() {
         skillsText.textContent = 'Habilidades';
         expText.textContent = 'Experiencia';
         interestsText.textContent = 'Intereses';
+        expFullCont .innerHTML = `
+        <h4>Ingeniero Asistente de Desarrollo de Software</h4>
+        <p>
+            Diseñé y desarrollé módulos de aplicaciones web externos de la empresa utilizando Angular en el front-end y Node.js con Express en el back-end, implementando arquitecturas escalables y eficientes.Formaba parte de reuniones de SCRUM enfocadas en la definición y análisis de requerimientos.
+            Implementé mecanismos de autenticación y autorización utilizando JSON Web Tokens (JWT) y AUTH0, asegurando que solo los usuarios autorizados accedieran a ciertas funcionalidades de la aplicación y mejorando la seguridad del sistema.
+            Configuré tareas programadas en MongoDB utilizando Mongoose y la biblioteca cron.
+            Utilicé Git para gestionar el control de versiones en proyectos de desarrollo, facilitando la colaboración en equipo y la integración continua. Realicé commits, branches y merges para mantener un historial claro de cambios en el código.
+            Con este sistema de control de versiones subi cambios a los repositorios de Gitlab y realice despliegues automáticos en entornos de contenedores utilizando Docker. Esto garantizó que las últimas actualizaciones del código se reflejaran de manera rápida y eficiente en los entornos de desarrollo y producción.
+        </p>
+        `;
+        expFullYear.innerHTML = `
+        <h5>1 de Octubre 2024 <br>-<br>Actualmente</h5>
+            <br>
+        <h5>Feanware</h5>`;
+
         expDesCont .innerHTML = `
         <h4>Ingeniero Asistente de Desarrollo de Software</h4>
         <p>
@@ -112,16 +127,27 @@ document.getElementById('toggle').addEventListener('change', function() {
         skillsText.textContent = 'Skills';
         expText.textContent = 'Work Experience';
         interestsText.textContent = 'Interests';
-        expDesCont .innerHTML = `
-        <h4>Assistant Software Development Engineer</h4>
+
+        expFullCont .innerHTML = `
+        <h4>Ingeniero Asistente de Desarrollo de Software</h4>
         <p>
-            I designed and developed external web application modules for the company using Angular for the front-end and Node.js with Express for the back-end, implementing scalable and efficient architectures.
-            I implemented authentication and authorization mechanisms using JSON Web Tokens (JWT) and AUTH0, ensuring that only authorized users could access certain functionalities of the application and enhancing system security.
-            I configured cron jobs in MongoDB using Mongoose and the cron library.
-            I used Git to manage version control in development projects, facilitating team collaboration and continuous integration. I performed commits, branches, and merges to maintain a clear history of changes in the code.
-            With this version control system, I pushed changes to the GitLab repositories and performed automatic deployments in container environments using Docker. This ensured that the latest code updates were quickly and efficiently reflected in both development and production environments.
-            I was part of meetings of SCRUM focused on the definition and analysis of requirements.
+            Diseñé y desarrollé módulos de aplicaciones web externos de la empresa utilizando Angular en el front-end y Node.js con Express en el back-end, implementando arquitecturas escalables y eficientes.Formaba parte de reuniones de SCRUM enfocadas en la definición y análisis de requerimientos.
+            Implementé mecanismos de autenticación y autorización utilizando JSON Web Tokens (JWT) y AUTH0, asegurando que solo los usuarios autorizados accedieran a ciertas funcionalidades de la aplicación y mejorando la seguridad del sistema.
+            Configuré tareas programadas en MongoDB utilizando Mongoose y la biblioteca cron.
+            Utilicé Git para gestionar el control de versiones en proyectos de desarrollo, facilitando la colaboración en equipo y la integración continua. Realicé commits, branches y merges para mantener un historial claro de cambios en el código.
+            Con este sistema de control de versiones subi cambios a los repositorios de Gitlab y realice despliegues automáticos en entornos de contenedores utilizando Docker. Esto garantizó que las últimas actualizaciones del código se reflejaran de manera rápida y eficiente en los entornos de desarrollo y producción.
         </p>
+        `;
+        expFullYear.innerHTML = `
+        <h5>October 1 2024 <br>-<br>Currently</h5>
+            <br>
+        <h5>Feanware</h5>`;
+        expDesCont .innerHTML = `
+        <h4>Full Stack Mobile Developer</h4>
+            <p>
+                I was involved in designing, developing, and deploying apps that were successfully published on both the Google Play Store and Apple App Store. 
+                Throughout this process, I participated in all stages of the development lifecycle, including RESTful API integration, user authentication, database management, push notifications, and payment gateway implementation.
+            </p>
         `;
         expDesYear.innerHTML = `
         <h5>February 1 2022 <br>-<br>September 19 2024</h5>
